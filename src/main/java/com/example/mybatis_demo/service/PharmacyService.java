@@ -10,4 +10,6 @@ import java.util.List;
 public interface PharmacyService {
 
     public List<Pharmacy> getallUser();
+
+
 }

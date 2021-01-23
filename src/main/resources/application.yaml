@@ -6,6 +6,11 @@ spring:
     url: jdbc:mysql://127.0.0.1:3306/mybdtisdemo?useUnicode=true&characterEncoding=UTF-8&useSSL=false&serverTimezone=GMT%2b8&allowPublicKeyRetrieval=true
     username: root
     password:
+  data:
+    mongodb:
+      host: 127.0.0.1
+      port: 27017
+      database: test
 
   #配置Mapper.xml映射文件
 mybatis:

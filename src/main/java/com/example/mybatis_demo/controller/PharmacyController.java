@@ -37,4 +37,11 @@ public class PharmacyController {
         return  map;
     }
 
+    @RequestMapping("/queryLBS")
+    public Object queryLBS(){
+
+        Map<String,Object> map=new HashMap<>();
+        return  map;
+    }
+
 }
